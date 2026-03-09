@@ -1,43 +1,82 @@
-# DroneBook
+# <img src="dronebook.png" height="32" style="vertical-align:middle; margin-right:8px;"/> DroneBook
 
-A Flutter application for drone pilots to track flights, view no-fly zones, and manage flight logs with Supabase backend integration.
+A Flutter app for drone pilots to plan and document flights with map-based awareness, no-fly overlays, and Supabase-backed flight logs.
 
 ## Features
 
-- Interactive map using OpenStreetMap with current location
-- Location search for places and addresses
-- Flight logging with drone details and flight data
-- No-fly zone (Flugverbotszonen) overlays
-- Flight history list with details
+- **Interactive Map** - OpenStreetMap view with live location support
+- **No-Fly Overlays** - Visual no-fly zone tiles on top of the map
+- **Flight Logging** - Track aircraft, notes, and operational flight details
+- **Flight History** - Review saved logs in a clean list view
+- **Supabase Auth + Data** - User auth and cloud persistence with row-level security
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+- Flutter SDK `3.11.0` or newer
+- A Supabase project
+- Android Studio/Xcode (depending on your target platform)
 
-- Flutter SDK 3.11.0 or higher
-- Supabase account and project
+## Setup
 
-### Supabase Setup
+### 1. Create a Supabase Project
 
-1. Create a project at https://supabase.com
-2. Copy your Project URL and Anon key from Project Settings -> API
-3. Create the tables with the SQL below in the Supabase SQL editor
+1. Create a project at [supabase.com](https://supabase.com)
+2. Open **Project Settings -> API**
+3. Copy:
+	- `SUPABASE_URL`
+	- `SUPABASE_ANON_KEY`
 
-### Install Dependencies
+### 2. Configure Environment Variables
+
+Create a local env file from the example:
+
+```bash
+cp .env.local.example .env.local
+```
+
+Then update `.env.local`:
+
+```env
+SUPABASE_URL=https://your-project-ref.supabase.co
+SUPABASE_ANON_KEY=your-supabase-anon-key
+```
+
+Configuration notes:
+
+- `SUPABASE_URL` - Your Supabase project URL (required)
+- `SUPABASE_ANON_KEY` - Your Supabase anon/public key (required)
+
+Security note:
+
+- Keep `.env.local` private and never commit real credentials
+- This repository is configured to ignore `.env` files
+
+### 3. Install Dependencies
 
 ```bash
 flutter pub get
 ```
 
-### Run the App
+### 4. Run the App
 
 ```bash
 flutter run
 ```
 
+## Supabase (Optional Local Dev)
+
+If you use the local Supabase CLI workflow in `supabase/`:
+
+```bash
+pnpm install
+pnpm supabase start
+```
+
+When running locally, point `SUPABASE_URL` to your local instance (for example `http://127.0.0.1:54321`).
+
 ## iOS Permissions
 
-Add these keys to [ios/Runner/Info.plist](ios/Runner/Info.plist):
+Ensure these keys exist in `ios/Runner/Info.plist`:
 
 ```xml
 <key>NSLocationWhenInUseUsageDescription</key>
