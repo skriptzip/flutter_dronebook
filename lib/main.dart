@@ -13,7 +13,6 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Allow local development without an env file by falling back to defaults.
   try {
     await dotenv.load(fileName: '.env.local');
   } catch (e) {

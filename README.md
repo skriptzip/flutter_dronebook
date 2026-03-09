@@ -11,6 +11,14 @@ A Flutter app for drone pilots to plan and document flights with map-based aware
 - **Supabase Auth + Data** - User auth and cloud persistence with row-level security
 - **Multilingual UI** - Built-in localization support (currently English and German)
 
+## Screenshots
+
+| Screen | Preview | Description |
+| --- | --- | --- |
+| Flight Info | <img src="assets/dronebook_flightinfo.png" alt="DroneBook flight info screen" width="220" /> | Shows detailed flight planning and operational info for a selected mission. |
+| Flight Log | <img src="assets/dronebook_log.png" alt="DroneBook flight log screen" width="220" /> | Captures and reviews flight entries, notes, and aircraft-related log details. |
+| Themes | <img src="assets/dronebook_themes.png" alt="DroneBook themes screen" width="220" /> | Theme is based on system preference. |
+
 ## Internationalization
 
 DroneBook includes Flutter localization (i18n/l10n) support out of the box.
