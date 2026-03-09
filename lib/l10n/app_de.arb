@@ -1,0 +1,200 @@
+{
+  "@@locale": "de",
+  "appTitle": "DroneBook",
+  "navMap": "Karte",
+  "navFlightLogs": "Flugprotokolle",
+  "navSettings": "Einstellungen",
+
+  "settings": "Einstellungen",
+  "appearance": "Darstellung",
+  "darkMode": "Dunkler Modus",
+  "language": "Sprache",
+  "account": "Konto",
+  "logout": "Abmelden",
+
+  "loginTitle": "DroneBook Login",
+  "signInTitle": "Anmelden",
+  "createAccountTitle": "Konto erstellen",
+  "confirmationEmailNotice": "Eine Bestatigungsmail wird gesendet, um deine Adresse zu verifizieren",
+  "emailLabel": "E-Mail",
+  "passwordLabel": "Passwort",
+  "emailRequired": "Bitte E-Mail eingeben",
+  "emailInvalid": "Bitte eine gultige E-Mail eingeben",
+  "passwordRequired": "Bitte ein Passwort eingeben",
+  "passwordTooShort": "Passwort muss mindestens 6 Zeichen haben",
+  "signInButton": "Anmelden",
+  "signUpButton": "Registrieren",
+  "needAccountSignUp": "Noch kein Konto? Registrieren",
+  "alreadyHaveAccountSignIn": "Schon ein Konto? Anmelden",
+  "errorDialogTitle": "Fehler",
+  "ok": "OK",
+  "authErrorEmailRegistered": "Diese E-Mail ist bereits registriert. Bitte anmelden oder eine andere E-Mail verwenden.",
+  "authErrorInvalidEmail": "Bitte eine gultige E-Mail-Adresse eingeben.",
+  "authErrorWeakPassword": "Passwort ist zu schwach. Mindestens 8 Zeichen mit Zahlen und Symbolen verwenden.",
+  "authErrorEmailNotConfirmedSignUp": "Eine Bestatigungsmail wurde gesendet. Bitte E-Mail prufen und Konto aktivieren.",
+  "authErrorTooManyAttempts": "Zu viele Versuche. Bitte einige Minuten warten und erneut versuchen.",
+  "authErrorInvalidCredentials": "E-Mail oder Passwort ist ungultig.",
+  "authErrorEmailNotConfirmedSignIn": "Bitte E-Mail bestatigen. Prufe deinen Posteingang.",
+  "authErrorTooManyAttemptsLater": "Zu viele Versuche. Bitte spater erneut versuchen.",
+  "authErrorUnexpected": "Ein unerwarteter Fehler ist aufgetreten. Bitte erneut versuchen.",
+  "errorWithMessage": "Fehler: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {}
+    }
+  },
+  "accountCreatedTitle": "Konto erstellt",
+  "accountCreatedMessage": "Dein Konto wurde erfolgreich erstellt! Eine Bestatigungsmail wurde an {email} gesendet. Bitte prufe deine E-Mail und bestatige dein Konto, um dich anzumelden.",
+  "@accountCreatedMessage": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+
+  "mapTitle": "DroneBook",
+  "searchHint": "Adresse eingeben...",
+  "addressInvalid": "Adressdaten sind ungultig",
+  "positionSet": "Position gesetzt: {lat}, {lng}",
+  "@positionSet": {
+    "placeholders": {
+      "lat": {},
+      "lng": {}
+    }
+  },
+  "addressNotFound": "Adresse nicht gefunden",
+  "searchError": "Suchfehler: {error}",
+  "@searchError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "flightRadiusLabel": "Flugradius",
+  "radiusShow": "Radius anzeigen",
+  "sampleNoFlyZoneName": "Flughafen-Zone",
+  "sampleNoFlyZoneDesc": "Keine Drohnenfluge erlaubt",
+
+  "flightLogsTitle": "Flugprotokolle",
+  "noLogsTitle": "Noch keine Flugprotokolle",
+  "noLogsSubtitle": "Starte mit dem Protokollieren deiner Fluge!",
+  "deleteFlightLogTitle": "Flugprotokoll loschen",
+  "deleteFlightLogMessage": "Mochtest du dieses Flugprotokoll wirklich loschen?",
+  "cancel": "Abbrechen",
+  "delete": "Loschen",
+  "flightLogDeleted": "Flugprotokoll geloscht",
+  "addressLabel": "Adresse",
+  "addressLoading": "Wird geladen...",
+  "addressUnavailable": "Adresse nicht verfugbar",
+  "modelLabel": "Modell",
+  "pilotLabel": "Pilot",
+  "coordinatesLabel": "Koordinaten",
+  "maxAltitudeLabel": "Max. Hohe",
+  "endTimeLabel": "Endzeit",
+  "durationLabel": "Dauer",
+  "weatherLabel": "Wetter",
+  "notesLabel": "Notizen",
+  "newFlightButton": "Neuer Flug",
+
+  "logFlightTitle": "Flug protokollieren",
+  "locationNotAvailable": "Position nicht verfugbar. Bitte GPS aktivieren oder Position auf der Karte setzen.",
+  "flightLogSaved": "Flugprotokoll erfolgreich gespeichert!",
+  "flightLogSaveFailed": "Flugprotokoll konnte nicht gespeichert werden. Prufe deine Supabase-Konfiguration.",
+  "manualPosition": "Manuell gesetzte Position",
+  "gpsPosition": "GPS Position",
+  "gpsUpdate": "GPS aktualisieren",
+  "droneInfoTitle": "Drohneninformationen",
+  "droneNameLabel": "Drohnenname *",
+  "droneModelLabel": "Drohnenmodell *",
+  "pilotNameLabel": "Pilot Name",
+  "droneNameRequired": "Bitte Drohnenname eingeben",
+  "droneModelRequired": "Bitte Drohnenmodell eingeben",
+  "flightDetailsTitle": "Flugdetails",
+  "startTimeLabel": "Startzeit",
+  "endTimeOptionalLabel": "Endzeit (optional)",
+  "notSet": "Nicht gesetzt",
+  "maxAltitudeLabelMeters": "Max. Hohe (Meter)",
+  "weatherConditionsLabel": "Wetterbedingungen",
+  "saveFlightLog": "Flugprotokoll speichern",
+  "locationLabel": "Position: {lat}, {lng}",
+  "@locationLabel": {
+    "placeholders": {
+      "lat": {},
+      "lng": {}
+    }
+  },
+    "@adressLabel": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "adressLabel": "Addresse: {address}",
+  "notAvailable": "Nicht verfügbar",
+  "latLngLabel": "Breite: {lat}\nLänge: {lng}",
+  "@latLngLabel": {
+    "placeholders": {
+      "lat": {},
+      "lng": {}
+    }
+  },
+
+  "aircraft_origin": "Herkunft",
+  "aircraft_speed": "Geschwindigkeit",
+  "aircraft_altitude": "Höhe",
+  "aircraft_heading": "Kurs",
+  "aircraft_type": "Typ",
+  "aircraft_onground": "Am Boden",
+
+  "weatherSunny": "Sonnig",
+  "weatherPartlyCloudy": "Teilweise bewölkt",
+  "weatherCloudy": "Bewölkt",
+  "weatherOvercast": "Bedeckt",
+  "weatherLightRain": "Leichter Regen",
+  "weatherRain": "Regen",
+  "weatherThunderstorm": "Gewitter",
+  "weatherSnow": "Schnee",
+  "weatherFog": "Nebel",
+  "weatherWindy": "Windig",
+
+  "aircraftCat0": "Keine Information",
+  "aircraftCat1": "Leicht (< 15500 lbs)",
+  "aircraftCat2": "Klein (15500 bis 75000 lbs)",
+  "aircraftCat3": "Groß (75000 bis 300000 lbs)",
+  "aircraftCat4": "Hohe Wirbelschleppe Groß",
+  "aircraftCat5": "Schwer (> 300000 lbs)",
+  "aircraftCat6": "Hochleistung (>5g Beschl. und >400kt)",
+  "aircraftCat7": "Drehflügler",
+  "aircraftCat8": "Reserviert",
+  "aircraftCat9": "Segelflugzeug",
+  "aircraftCat10": "Leichter als Luft",
+  "aircraftCat11": "Fallschirmspringer",
+  "aircraftCat12": "Ultraleicht / Drachen / Gleitschirm",
+  "aircraftCat13": "Reserviert",
+  "aircraftCat14": "Unbemanntes Luftfahrzeug",
+  "aircraftCat15": "Weltraum / Trans-atmosphärisches Fahrzeug",
+  "aircraftCat16": "Reserviert",
+  "aircraftCat17": "Bodenfahrzeug - Einsatzfahrzeug",
+  "aircraftCat18": "Bodenfahrzeug - Servicefahrzeug",
+  "aircraftCat19": "Punkthindernis",
+  "aircraftCat20": "Gruppenhindernis",
+  "aircraftCatOther": "Sonstiges",
+
+  "hideAircraft": "Flugzeuge ausblenden",
+  "showAircraft": "Flugzeuge anzeigen",
+  "flightRadius": "Flugradius",
+  "recentlyUsed": "Zuletzt verwendet",
+  "flightDesignation": "Flugbezeichnung",
+  "flightDesignationRequired": "Bitte Flugbezeichnung eingeben",
+  "droneIdLabel": "Drohnen-ID",
+  "droneIdRequired": "Bitte Drohnen-ID eingeben",
+  "windSpeedLabel": "Windgeschwindigkeit",
+  "windSpeedUnit": "km/h",
+  "removeCustomWeather": "Entfernen",
+  "addCustomWeather": "Benutzerdefiniertes Wetter hinzufügen",
+  "customWeatherLabel": "Benutzerdefiniertes Wetter",
+  "customWeatherHint": "Wetterbedingung eingeben",
+  "windspeedLabel2": "Windgeschwindigkeit",
+  "droneRegistrationId": "Drohnen-Registrierungs-ID",
+  "selectLanguage": "Sprache auswählen",
+  "languageEnglish": "Englisch",
+  "languageGerman": "Deutsch",
+  "availableLanguages": "Verfügbare Sprachen"
+}

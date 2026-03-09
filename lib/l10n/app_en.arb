@@ -1,0 +1,201 @@
+{
+  "@@locale": "en",
+  "appTitle": "DroneBook",
+  "navMap": "Map",
+  "navFlightLogs": "Flight Logs",
+  "navSettings": "Settings",
+
+  "settings": "Settings",
+  "appearance": "Appearance",
+  "darkMode": "Dark Mode",
+  "language": "Language",
+  "account": "Account",
+  "logout": "Logout",
+
+  "loginTitle": "DroneBook Login",
+  "signInTitle": "Sign In",
+  "createAccountTitle": "Create Account",
+  "confirmationEmailNotice": "A confirmation email will be sent to verify your address",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "emailRequired": "Please enter an email",
+  "emailInvalid": "Please enter a valid email",
+  "passwordRequired": "Please enter a password",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "signInButton": "Sign In",
+  "signUpButton": "Sign Up",
+  "needAccountSignUp": "Need an account? Sign up",
+  "alreadyHaveAccountSignIn": "Already have an account? Sign in",
+  "errorDialogTitle": "Error",
+  "ok": "OK",
+  "authErrorEmailRegistered": "This email is already registered. Please sign in or use a different email.",
+  "authErrorInvalidEmail": "Please enter a valid email address.",
+  "authErrorWeakPassword": "Password is too weak. Use at least 8 characters with numbers and symbols.",
+  "authErrorEmailNotConfirmedSignUp": "A confirmation email has been sent. Please check your inbox and confirm your email to activate your account.",
+  "authErrorTooManyAttempts": "Too many attempts. Please wait a few minutes before trying again.",
+  "authErrorInvalidCredentials": "Invalid email or password.",
+  "authErrorEmailNotConfirmedSignIn": "Please confirm your email before signing in. Check your email inbox.",
+  "authErrorTooManyAttemptsLater": "Too many attempts. Please try again later.",
+  "authErrorUnexpected": "An unexpected error occurred. Please try again.",
+  "errorWithMessage": "Error: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {}
+    }
+  },
+  "accountCreatedTitle": "Account Created",
+  "accountCreatedMessage": "Your account has been created successfully! A confirmation email has been sent to {email}. Please check your email and confirm your account to log in.",
+  "@accountCreatedMessage": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+
+  "mapTitle": "DroneBook",
+  "searchHint": "Enter address...",
+  "addressInvalid": "Address data is invalid",
+  "positionSet": "Position set: {lat}, {lng}",
+  "@positionSet": {
+    "placeholders": {
+      "lat": {},
+      "lng": {}
+    }
+  },
+  "addressNotFound": "Address not found",
+  "searchError": "Search error: {error}",
+  "@searchError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "flightRadiusLabel": "Flight radius",
+  "radiusShow": "Show radius",
+  "sampleNoFlyZoneName": "Airport Zone",
+  "sampleNoFlyZoneDesc": "No drone flights allowed",
+
+  "flightLogsTitle": "Flight Logs",
+  "noLogsTitle": "No flight logs yet",
+  "noLogsSubtitle": "Start logging your drone flights!",
+  "deleteFlightLogTitle": "Delete Flight Log",
+  "deleteFlightLogMessage": "Are you sure you want to delete this flight log?",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "flightLogDeleted": "Flight log deleted",
+  "addressLabel": "Address",
+  "addressLoading": "Loading...",
+  "addressUnavailable": "Address not available",
+  "modelLabel": "Model",
+  "pilotLabel": "Pilot",
+  "coordinatesLabel": "Coordinates",
+  "maxAltitudeLabel": "Max Altitude",
+  "endTimeLabel": "End Time",
+  "durationLabel": "Duration",
+  "weatherLabel": "Weather",
+  "notesLabel": "Notes",
+  "newFlightButton": "New Flight",
+
+  "logFlightTitle": "Log Flight",
+  "locationNotAvailable": "Location not available. Please enable GPS or set a position on the map.",
+  "flightLogSaved": "Flight log saved successfully!",
+  "flightLogSaveFailed": "Failed to save flight log. Check your Supabase configuration.",
+  "manualPosition": "Manually set position",
+  "gpsPosition": "GPS position",
+  "gpsUpdate": "Update GPS",
+  "droneInfoTitle": "Drone Information",
+  "droneNameLabel": "Drone Name *",
+  "droneModelLabel": "Drone Model *",
+  "pilotNameLabel": "Pilot Name",
+  "droneNameRequired": "Please enter drone name",
+  "droneModelRequired": "Please enter drone model",
+  "flightDetailsTitle": "Flight Details",
+  "startTimeLabel": "Start Time",
+  "endTimeOptionalLabel": "End Time (Optional)",
+  "notSet": "Not set",
+  "maxAltitudeLabelMeters": "Max Altitude (meters)",
+  "weatherConditionsLabel": "Weather Conditions",
+  "saveFlightLog": "Save Flight Log",
+  "adressLabel": "Address: {address}",
+  "@adressLabel": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "notAvailable": "Not available",
+  "locationLabel": "Location: {lat}, {lng}",
+  "@locationLabel": {
+    "placeholders": {
+      "lat": {},
+      "lng": {}
+    }
+  },
+  "latLngLabel": "Lat: {lat}\nLng: {lng}",
+  "@latLngLabel": {
+    "placeholders": {
+      "lat": {},
+      "lng": {}
+    }
+  },
+
+  "aircraft_origin": "Origin",
+  "aircraft_speed": "Speed",
+  "aircraft_altitude": "Altitude",
+  "aircraft_heading": "Heading",
+  "aircraft_type": "Type",
+  "aircraft_onground": "On Ground",
+
+  "weatherSunny": "Sunny",
+  "weatherPartlyCloudy": "Partly Cloudy",
+  "weatherCloudy": "Cloudy",
+  "weatherOvercast": "Overcast",
+  "weatherLightRain": "Light Rain",
+  "weatherRain": "Rain",
+  "weatherThunderstorm": "Thunderstorm",
+  "weatherSnow": "Snow",
+  "weatherFog": "Fog",
+  "weatherWindy": "Windy",
+
+  "aircraftCat0": "No information",
+  "aircraftCat1": "Light (< 15500 lbs)",
+  "aircraftCat2": "Small (15500 to 75000 lbs)",
+  "aircraftCat3": "Large (75000 to 300000 lbs)",
+  "aircraftCat4": "High Vortex Large",
+  "aircraftCat5": "Heavy (> 300000 lbs)",
+  "aircraftCat6": "High Performance (>5g accel and >400kt)",
+  "aircraftCat7": "Rotorcraft",
+  "aircraftCat8": "Reserved",
+  "aircraftCat9": "Glider / sailplane",
+  "aircraftCat10": "Lighter-than-air",
+  "aircraftCat11": "Parachutist / Skydiver",
+  "aircraftCat12": "Ultralight / hang-glider / paraglider",
+  "aircraftCat13": "Reserved",
+  "aircraftCat14": "Unmanned Aerial Vehicle",
+  "aircraftCat15": "Space / Trans-atmospheric vehicle",
+  "aircraftCat16": "Reserved",
+  "aircraftCat17": "Surface Vehicle - Emergency Vehicle",
+  "aircraftCat18": "Surface Vehicle - Service Vehicle",
+  "aircraftCat19": "Point Obstacle",
+  "aircraftCat20": "Cluster Obstacle",
+  "aircraftCatOther": "Other",
+
+  "hideAircraft": "Hide Aircraft",
+  "showAircraft": "Show Aircraft",
+  "flightRadius": "Flight Radius",
+  "recentlyUsed": "Recently Used",
+  "flightDesignation": "Flight Designation",
+  "flightDesignationRequired": "Please enter flight designation",
+  "droneIdLabel": "Drone ID",
+  "droneIdRequired": "Please enter drone ID",
+  "windSpeedLabel": "Wind Speed",
+  "windSpeedUnit": "km/h",
+  "removeCustomWeather": "Remove",
+  "addCustomWeather": "Add Custom Weather",
+  "customWeatherLabel": "Custom Weather",
+  "customWeatherHint": "Enter weather condition",
+  "windspeedLabel2": "Wind Speed",
+  "droneRegistrationId": "Drone Registration ID",
+  "selectLanguage": "Select Language",
+  "languageEnglish": "English",
+  "languageGerman": "German",
+  "availableLanguages": "Available Languages"
+
+}
