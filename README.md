@@ -9,6 +9,27 @@ A Flutter app for drone pilots to plan and document flights with map-based aware
 - **Flight Logging** - Track aircraft, notes, and operational flight details
 - **Flight History** - Review saved logs in a clean list view
 - **Supabase Auth + Data** - User auth and cloud persistence with row-level security
+- **Multilingual UI** - Built-in localization support (currently English and German)
+
+## Internationalization
+
+DroneBook includes Flutter localization (i18n/l10n) support out of the box.
+
+- **Supported languages** - English (`en`) and German (`de`)
+- **ARB files** - `lib/l10n/app_en.arb` and `lib/l10n/app_de.arb`
+- **Generated localizations** - `app_localizations*.dart` files in `lib/l10n/`
+
+### Add a New Language
+
+1. Create a new ARB file in `lib/l10n/` (for example `app_fr.arb`)
+2. Add all translated keys matching the existing ARB structure
+3. Regenerate localizations:
+
+```bash
+flutter gen-l10n
+```
+
+4. Restart the app and verify the new locale appears correctly
 
 ## Prerequisites
 
